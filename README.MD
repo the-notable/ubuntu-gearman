@@ -10,3 +10,12 @@ This image is meant to be used as a base image for other builds. The Gearman pac
 use it as a base for an application server that needs to use the gearman client.
 
 Because this image is meant to be used as a base image and as such contains no entry points and doesn't expose any ports.
+
+### Persistence Support
+The image contains the packages necessary to have Gearman use the following forms of persistence:
+
+* Mysql
+* Drizzle
+* Memcached
+* Sqlite3
+* Postgresql

@@ -9,7 +9,12 @@ RUN apt-get update && apt-get install -y \
     gperf \
     libevent-dev \
     uuid-dev \
-    wget
+    wget \
+    libmysqlclient-dev \
+    libmemcached-dev \
+    libsqlite3-dev \
+    libpq-dev \
+    libdrizzle-dev
 
 # Install Gearman Job Server
 RUN wget https://launchpad.net/gearmand/1.2/1.1.12/+download/gearmand-1.1.12.tar.gz
